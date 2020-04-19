@@ -1,0 +1,12 @@
+.cards__wrap .play {
+    display: none;
+}
+
+body.is_play .cards__wrap .play {
+    display: block;
+}
+
+body.is_play .cards__wrap .card p,
+body.is_play .cards__wrap .card .rotate {
+    display: none;
+}

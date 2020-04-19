@@ -1,0 +1,40 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+@import 'bootstrap/bootstrap-grid';
+@import 'bootstrap/_mixins';
+@import 'bootstrap/_card';
+// blocks
+@import "blocks/_header";
+@import "blocks/_categories";
+@import "blocks/_cards";
+@import "_buttons";
+@import "_menu";
+@import "_flip";
